@@ -1,0 +1,43 @@
+/* 
+ main{
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+} 
+
+header {
+    scroll-snap-align: start;
+}
+
+#page2{
+    scroll-snap-align: start;
+}
+
+#page3{
+    scroll-snap-align: start;
+}
+
+#page4{
+    scroll-snap-align: start;
+}  */
+
+.logo{
+   /* background-color: aqua; */
+   height: 50px;
+   width: 50px;
+   background-image: url("https://logos-world.net/wp-content/uploads/2020/04/BMW-Logo-1997-2020.png");
+}
+
+
+.car-imgs img{
+    height: 100%;
+    width: 100%;
+    /* background-color:a quamarine; */
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
